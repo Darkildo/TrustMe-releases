@@ -226,4 +226,4 @@ Report vulnerabilities privately, not in issues — see [SECURITY.md](SECURITY.m
 ## License
 
 The app is distributed free of charge as ready-made builds. The source code is not published; all rights reserved by the copyright holder.
-For commercial use inquiries: CONTACT_EMAIL.
+For commercial use inquiries: didakostya@gmail.com.
