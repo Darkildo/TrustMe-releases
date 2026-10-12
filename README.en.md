@@ -111,7 +111,7 @@ It does not cover groups or calls.
 - Unlock with an 8-digit PIN or a password, plus Face ID, Touch ID or fingerprint.
 - Auto-lock after a chosen period; optionally wipe data after 10 failed attempts.
 - The local database is encrypted (SQLCipher); the key file uses Argon2id + AES-256-GCM.
-- Optional on-device media encryption, with the key bound to the device's secure storage.
+- Photos, videos and files are stored encrypted on the device (on by default). The keys are bound to the device's secure storage and unlock only after you enter your PIN or password.
 - On Android, screenshots are blocked; the app switcher preview is hidden on both mobile platforms.
 
 **Notifications.** The server sends only a wake-up signal, never the content. Your device fetches and decrypts the message and shows the notification itself.
