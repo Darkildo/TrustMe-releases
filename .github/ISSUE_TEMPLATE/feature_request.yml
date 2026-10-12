@@ -1,0 +1,14 @@
+name: Предложение / Feature request
+description: Идея или пожелание / An idea or a wish
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что вы хотите сделать в приложении? / What do you want to do in the app?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это вам? / Why do you need it?

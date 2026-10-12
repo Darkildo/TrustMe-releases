@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Уязвимость / Security vulnerability
+    url: https://github.com/Darkildo/TrustMe-releases/blob/main/SECURITY.md
+    about: Не публикуйте уязвимости в issue. / Do not report vulnerabilities in public issues.

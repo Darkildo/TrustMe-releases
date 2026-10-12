@@ -1,0 +1,46 @@
+name: Ошибка / Bug report
+description: Что-то работает не так / Something does not work
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issue видны всем.** Не прикладывайте экспорт диагностики, резервные копии, файлы переноса и скриншоты с перепиской.
+        **Issues are public.** Do not attach diagnostics exports, backups, transfer files or screenshots of conversations.
+  - type: input
+    id: version
+    attributes:
+      label: Версия приложения / App version
+      description: Профиль → О приложении / Profile → About
+      placeholder: 11.7.3 (327)
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Платформа / Platform
+      options: [Android, iOS, Windows, Linux]
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Устройство и версия ОС / Device and OS version
+      placeholder: Pixel 7, Android 15 / Windows 11 23H2 / Ubuntu 24.04 (Wayland)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги / Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидалось и что произошло / Expected vs actual
+    validations:
+      required: true
