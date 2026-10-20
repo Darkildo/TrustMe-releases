@@ -40,18 +40,29 @@ The screenshots show the Russian UI; English is available in settings.
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="assets/screenshots/01-key.png" width="200" alt="Key generation"><br><sub>Your account key is created on the device</sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/02-chat.png" width="200" alt="Chat"><br><sub>End-to-end encrypted chats</sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/03-trust.png" width="200" alt="Contacts by trust"><br><sub>See whom you can trust</sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/04-location.png" width="200" alt="Live location"><br><sub>Location: you decide who and for how long</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/01-key.png" width="170" alt="Key generation"><br><sub>Your account key is created on the device</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/02-chat.png" width="170" alt="Chat"><br><sub>End-to-end encrypted chats</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/03-trust.png" width="170" alt="Contacts by trust"><br><sub>See whom you can trust</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/09-devices.png" width="170" alt="My devices"><br><sub>One account on up to 8 devices</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/10-nodes.png" width="170" alt="My nodes"><br><sub>Node pool and strict mode</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/05-group.png" width="200" alt="Group"><br><sub>Groups with roles and disappearing messages</sub></td>
-    <td align="center"><img src="assets/screenshots/06-call.png" width="200" alt="Call summary"><br><sub>Calls protected by DTLS-SRTP</sub></td>
-    <td align="center"><img src="assets/screenshots/07-security.png" width="200" alt="Security"><br><sub>PIN, biometrics and auto-lock</sub></td>
-    <td align="center"><img src="assets/screenshots/08-media-encryption.png" width="200" alt="Media encryption"><br><sub>Photos and videos stay encrypted on the phone</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/04-location.png" width="170" alt="Live location"><br><sub>Location: you decide who and for how long</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/05-group.png" width="170" alt="Group"><br><sub>Groups with roles and disappearing messages</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/06-call.png" width="170" alt="Call summary"><br><sub>Calls protected by DTLS-SRTP</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/07-security.png" width="170" alt="Security"><br><sub>PIN, biometrics and auto-lock</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/08-media-encryption.png" width="170" alt="Media encryption"><br><sub>Photos and videos stay encrypted on the phone</sub></td>
   </tr>
 </table>
+
+## Recent changes
+
+- **13.0**, October 2026: files are stored on your node and downloaded under your rules, auto-download and retention settings, revoking a file for everyone, call relays with temporary credentials from the node.
+- **12.1**: redesigned "My devices", "My nodes" and step-by-step account transfer screens.
+- **12.0**: up to 8 devices in one account, node pool and strict mode.
+- **11.8**: account transfer confirmed with a code, group admins can delete other members' messages.
+
+Details for every version: [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
 
 ## Why TrustMe
 
@@ -72,7 +83,13 @@ who may call you or see your location and location history.
 ### Your server, your rules
 Use the shared server or run your own for yourself, your family or your team.
 [The server's source is open](https://github.com/Darkildo/trustme_backend): a node starts with a single Docker command,
-and in the app you only enter its address and key.
+and in the app you only enter its address and key. You can have up to three nodes: the primary one receives your messages,
+the others back it up. Strict mode closes your mailbox to anyone you have not issued a queue to.
+
+### All your devices
+One account works on your phone, tablet and computer at the same time: up to 8 devices.
+A new device is added by a transfer from any device already in the account and confirmed with a code, with no logins or passwords.
+Contacts, chats, messages, groups, media and settings sync between devices under the same end-to-end encryption.
 
 ### Everything you are used to
 This is not a bare-bones "secure chat" but a full messenger: reactions, replies, stickers, voice and round video messages,
@@ -80,13 +97,17 @@ polls, groups, video calls and screen sharing from your computer.
 
 ## What you can do
 
-**Chat your way.** Reply to specific messages, react, edit and delete for yourself or for everyone.
+**Chat your way.** Reply to specific messages, react, forward to other chats, edit and delete for yourself or for everyone.
 Record voice messages up to 10 minutes and round video messages, send a batch of photos and videos as one album, touch up a photo in the built-in editor.
 Send a secret photo for a single view, or set a conversation to delete itself after an hour, a day or a week.
 
 **Express yourself.** Build your own sticker packs, import them from an archive and share them right in the chat.
 Make text bold, italic or hide it under a spoiler. Turn on live typing and your contact sees your reply as you type it
 (only if you both want that).
+
+**Share files.** Photos, videos and documents are uploaded to your node as a single encrypted file; the recipient gets only a pointer and downloads it themselves.
+You choose what downloads automatically on Wi-Fi, mobile data and roaming, and how many days a file stays on the node.
+You can revoke your own file for everyone, and an expired file can be requested again with one tap.
 
 **Call.** Audio and video calls one-to-one and in groups: up to 5 people by voice and up to 3 by video.
 Share your computer screen with sound to help with a setup or go through a document together.
@@ -96,7 +117,8 @@ On-device noise suppression removes background noise, and on a phone an incoming
 Contacts you trust can see your location history with stops and routes, and you can export it to GPX.
 
 **Work together.** Create groups with admins and an admins-only posting mode, mention members with @,
-run polls with anonymous voting and auto-close. New members see either only new messages or the full history: you choose when creating the group.
+run polls with anonymous voting and auto-close. The owner and admins can delete another member's message for everyone.
+New members see either only new messages or the full history: you choose when creating the group.
 
 **Stay organised.** Search a chat or all chats at once, pin what matters, archive the rest,
 keep notes to yourself in Saved Messages. Read receipts and online status are configurable per contact.
@@ -115,7 +137,9 @@ and drag and drop. Light and dark themes, Russian and English.
 ## Security and privacy
 
 **Encryption.** Messages, media, location and profile data are encrypted on your device and decrypted only by the recipient:
-X25519 key agreement, AES-256-GCM encryption, Ed25519 signatures. Calls use DTLS-SRTP, with signalling over the same encrypted channel.
+X25519 key agreement, AES-256-GCM encryption, Ed25519 signatures. Files are encrypted on the device into a single container and uploaded to a node that cannot open it.
+Calls use DTLS-SRTP, with signalling over the same encrypted channel; when a direct connection is impossible,
+the call goes through a relay with temporary credentials issued by the node, and the stream stays encrypted.
 The connection to the server is additionally protected by the Noise protocol.
 
 **Forward secrecy.** In a direct chat you can turn on an extra Double Ratchet layer: the key changes with every message.
@@ -127,18 +151,22 @@ It is enabled per chat and only with both sides' consent. It does not cover grou
 - The local database is encrypted (SQLCipher); the key file is protected with Argon2id and AES-256-GCM.
 - Photos, videos and files are stored encrypted on the device (on by default). The keys unlock only after you enter your PIN or password.
 - On Android, screenshots are blocked; the app switcher preview is hidden on both mobile platforms.
+- Data between your own devices travels encrypted only: the server cannot tell it from regular messages.
 
 **Notifications.** The server sends only a wake-up signal, never the content. Your device fetches and decrypts the message and shows the notification itself.
 
 **What the server sees.** The server cannot read message content. It does know who writes to whom, when, and how large each message is, and the shape of your contact graph.
-Undelivered messages are kept on the server, encrypted, for up to 14 days. If it matters to you who holds this data, run your own server.
+Undelivered messages are kept on the server, encrypted, for up to 14 days. Files stay on the node for as long as you chose when sending
+(14 days by default) and can be revoked earlier. If it matters to you who holds this data, run your own server.
 
 **GIFs and link previews.** GIF search goes through Tenor, so Google sees the query and your IP address. The feature is optional.
 Link previews are fetched by the sender's device.
 
 ## Backup and transfer
 
-- **Transfer to a new device.** The new device shows a QR code, the old one sends an encrypted file. Keys, contacts and groups move over; no server is involved.
+- **Transfer to a new device.** The new device shows a QR code and 4 digits, the old one sends an encrypted file and a 6-digit confirmation code,
+  so someone who merely saw the QR cannot slip in a foreign account. Keys, contacts and groups move over; messages and media catch up from your other devices.
+- **Several devices.** A transfer does not disconnect the old device: both stay in the account, up to 8 in total. Remove a spare one in "My devices" and it signs out right away.
 - **Backup.** An encrypted archive protected by a password of at least 12 characters. Restoring from it creates a **new account**: exchange QR codes with your contacts again.
 - The backup stays inside the app until you export it. Without a transfer or a backup, losing your device means losing your keys and messages.
 
@@ -218,8 +246,9 @@ All Android APKs are signed with the same key. If Android refuses to install an 
 
 ## Known limitations
 
-- One account works on one device. There is no simultaneous multi-device sync, but the account can be transferred.
-- Only received media can be forwarded: text cannot be forwarded, and nothing can be forwarded to groups.
+- A new device joins the account only through a transfer from a device already in it: there is no login and password.
+- Versions 12 and later are incompatible with 11.x, and only versions 13 and later exchange files: all your contacts and all your devices need to update.
+- View-once photos cannot be forwarded; your own file can be forwarded while its copy is still on the device.
 - No push notifications on Windows or Linux.
 - No camera video or round video messages on Linux; Windows has both.
 - Desktop updates are installed manually.
