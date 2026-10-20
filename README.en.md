@@ -159,6 +159,19 @@ An honest comparison with what you most likely use today. Blank spots are where 
 | Open-source client | in preparation | yes | yes | yes |
 | macOS and web | no | yes | yes | yes |
 
+What the others do not have. Bold marks what we could not find in any of the three messengers.
+
+| | TrustMe | Signal | Telegram | Matrix (Element) |
+| --- | --- | --- | --- | --- |
+| Several nodes per user, with failover | **up to 3 nodes, the others back up the primary** | no | no | one home server |
+| Mailbox closed to strangers | **strict mode: the node accepts only through queues you issued to contacts** | message requests | privacy settings | no |
+| Per-contact permissions: calls, location, location history, device info | **yes, granted and revoked one by one** | no | partly: who may call you | no |
+| Location history with stops and routes, GPX export | **yes, for trusted contacts only** | no | no | no |
+| Live typing: the other side sees text as you type | **yes, with mutual consent** | no | no | no |
+| Introducing contacts to each other | **yes** | no | no | no |
+| The sender chooses how long a file stays on the server and can revoke it for everyone | **yes** | no | no | no |
+| Content-free notifications: the server sends only a wake-up signal | yes | yes | no | depends on the server |
+
 ## Openness
 
 - **Server.** [The source code](https://github.com/Darkildo/trustme_backend) is open: the protocol, message schemas and deployment guides are all in the repository.
