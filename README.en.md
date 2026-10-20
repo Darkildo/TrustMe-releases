@@ -24,6 +24,17 @@ And if you would rather not depend even on our server, run your own: its source 
 
 ## Download
 
+<p align="center">
+  <a href="https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-android-arm64-v8a.apk"><img alt="Download for Android" src="https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-windows-x64.zip"><img alt="Download for Windows" src="https://img.shields.io/badge/Windows-ZIP-0078D4?style=for-the-badge"></a>&nbsp;
+  <a href="https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-linux-x64.deb"><img alt="Download for Linux" src="https://img.shields.io/badge/Linux-DEB-E95420?style=for-the-badge&logo=linux&logoColor=white"></a>
+</p>
+
+<p align="center"><sub>Android 10+ · Windows 10/11 x64 · Ubuntu 24.04+, Debian 13, Mint 22 · iOS: TestFlight by invitation</sub></p>
+
+<details>
+<summary><b>All files: 32-bit Android, portable Linux build, requirements</b></summary>
+
 | Platform | File | Requirements |
 | --- | --- | --- |
 | **Android** (most phones) | [TrustMe-android-arm64-v8a.apk](https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-android-arm64-v8a.apk) | Android 10+ |
@@ -33,6 +44,8 @@ And if you would rather not depend even on our server, run your own: its source 
 | **Linux**: Ubuntu, Debian, Mint | [TrustMe-linux-x64.deb](https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-linux-x64.deb) | Ubuntu 24.04+, Debian 13, Mint 22 |
 | Linux, portable | [TrustMe-linux-x64.tar.gz](https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-linux-x64.tar.gz) | glibc 2.38+, incl. Fedora 40+ |
 | **iOS** | TestFlight, by invitation | iOS 15.6+ |
+
+</details>
 
 The links always point to the latest version. Older versions and change notes are in [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
 
@@ -62,7 +75,7 @@ The screenshots show the Russian UI; English is available in settings.
 - **12.0**: up to 8 devices in one account, node pool and strict mode.
 - **11.8**: account transfer confirmed with a code, group admins can delete other members' messages.
 
-Details for every version: [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
+Details for every version: [Releases](https://github.com/Darkildo/TrustMe-releases/releases) or [CHANGELOG.md](CHANGELOG.md) as a single file.
 
 ## Why TrustMe
 
@@ -95,6 +108,12 @@ Contacts, chats, messages, groups, media and settings sync between devices under
 This is not a bare-bones "secure chat" but a full messenger: reactions, replies, stickers, voice and round video messages,
 polls, groups, video calls and screen sharing from your computer.
 
+## Who it is for
+
+- **Family and friends on their own server.** A node on a home server or a cheap VPS, accounts without phone numbers, no SIM card needed for the kids. Messages, photos and locations never leave your server.
+- **A small team.** Groups with admins, polls, screen sharing from a computer, voice calls for up to 5 people. The node belongs to the company, and strict mode keeps strangers out of your mailbox.
+- **Anyone who does not want to give out a phone number.** The account is born from a swipe across the screen, contacts are added by QR code, and everything moves to a new phone without the server's help.
+
 ## What you can do
 
 **Chat your way.** Reply to specific messages, react, forward to other chats, edit and delete for yourself or for everyone.
@@ -125,6 +144,22 @@ keep notes to yourself in Saved Messages. Read receipts and online status are co
 
 **Work on your computer.** Windows and Linux apps with a two-pane layout, tray icon, keyboard shortcuts
 and drag and drop. Light and dark themes, Russian and English.
+
+## Comparison
+
+An honest comparison with what you most likely use today. Blank spots are where TrustMe still falls short.
+
+| | TrustMe | Signal | Telegram | Matrix (Element) |
+| --- | --- | --- | --- | --- |
+| Sign-up without a phone number | yes | no | no | yes |
+| End-to-end encryption | always, groups included | always | secret chats only | on by default in private rooms |
+| Your own server | yes, the node's source is open | source is open, but clients cannot be pointed at another server | no | yes, federated |
+| Several devices per account | up to 8 | yes | yes | yes |
+| Forward secrecy | optional in direct chats | always | secret chats only | yes |
+| Trust network: key verification, contact introductions, per-contact permissions | yes | safety-number verification | no | device cross-signing |
+| Group calls | up to 5 voice, up to 3 video | up to 50 | yes | yes |
+| Open-source client | in preparation | yes | yes | yes |
+| macOS and web | no | yes | yes | yes |
 
 ## Openness
 

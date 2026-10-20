@@ -24,6 +24,17 @@ TrustMe - мессенджер для тех, кто хочет общаться
 
 ## Скачать
 
+<p align="center">
+  <a href="https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-android-arm64-v8a.apk"><img alt="Скачать для Android" src="https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-windows-x64.zip"><img alt="Скачать для Windows" src="https://img.shields.io/badge/Windows-ZIP-0078D4?style=for-the-badge"></a>&nbsp;
+  <a href="https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-linux-x64.deb"><img alt="Скачать для Linux" src="https://img.shields.io/badge/Linux-DEB-E95420?style=for-the-badge&logo=linux&logoColor=white"></a>
+</p>
+
+<p align="center"><sub>Android 10+ · Windows 10/11 x64 · Ubuntu 24.04+, Debian 13, Mint 22 · iOS: TestFlight по приглашению</sub></p>
+
+<details>
+<summary><b>Все файлы: 32-битный Android, портативная сборка Linux, требования</b></summary>
+
 | Платформа | Файл | Требования |
 | --- | --- | --- |
 | **Android** (большинство телефонов) | [TrustMe-android-arm64-v8a.apk](https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-android-arm64-v8a.apk) | Android 10+ |
@@ -33,6 +44,8 @@ TrustMe - мессенджер для тех, кто хочет общаться
 | **Linux**: Ubuntu, Debian, Mint | [TrustMe-linux-x64.deb](https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-linux-x64.deb) | Ubuntu 24.04+, Debian 13, Mint 22 |
 | Linux, портативная | [TrustMe-linux-x64.tar.gz](https://github.com/Darkildo/TrustMe-releases/releases/latest/download/TrustMe-linux-x64.tar.gz) | glibc 2.38+, в т. ч. Fedora 40+ |
 | **iOS** | через TestFlight по приглашению | iOS 15.6+ |
+
+</details>
 
 Ссылки всегда ведут на последнюю версию. Прошлые версии и список изменений - в [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
 
@@ -60,7 +73,7 @@ TrustMe - мессенджер для тех, кто хочет общаться
 - **12.0**: до 8 устройств в одном аккаунте, пул нод и строгий режим.
 - **11.8**: перенос аккаунта с подтверждением кодом, удаление чужих сообщений администраторами групп.
 
-Подробности по каждой версии: [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
+Подробности по каждой версии: [Releases](https://github.com/Darkildo/TrustMe-releases/releases) или [CHANGELOG.md](CHANGELOG.md) одним файлом.
 
 ## Почему TrustMe
 
@@ -93,6 +106,12 @@ TrustMe - мессенджер для тех, кто хочет общаться
 Это не аскетичный «защищённый чат», а полноценный мессенджер: реакции, ответы, стикеры, голосовые и видеосообщения-«кружки»,
 опросы, группы, видеозвонки и показ экрана с компьютера.
 
+## Для кого
+
+- **Семья и друзья со своим сервером.** Нода на домашнем сервере или дешёвом VPS, аккаунты без номеров телефона, детям не нужна SIM-карта. Переписка, фото и местоположение не покидают ваш сервер.
+- **Небольшая команда.** Группы с администраторами, опросы, показ экрана с компьютера, голосовые звонки до 5 человек. Нода у компании, а строгий режим не пускает в ваш ящик никого постороннего.
+- **Человек, который не хочет светить номер.** Аккаунт рождается из движения пальцем по экрану, контакты добавляются по QR-коду, а на новый телефон всё переезжает без участия сервера.
+
 ## Что можно делать
 
 **Общаться как удобно.** Отвечайте на конкретные сообщения, ставьте реакции, пересылайте в другие чаты, редактируйте и удаляйте отправленное у себя или у всех.
@@ -123,6 +142,22 @@ TrustMe - мессенджер для тех, кто хочет общаться
 
 **Работать за компьютером.** Версии для Windows и Linux с двухпанельным интерфейсом, значком в трее, горячими клавишами
 и перетаскиванием файлов. Светлая и тёмная тема, русский и английский язык.
+
+## Сравнение
+
+Честное сравнение с тем, чем вы, скорее всего, пользуетесь сейчас. Пустые клетки там, где TrustMe пока уступает.
+
+| | TrustMe | Signal | Telegram | Matrix (Element) |
+| --- | --- | --- | --- | --- |
+| Регистрация без номера телефона | да | нет | нет | да |
+| Сквозное шифрование | всегда, включая группы | всегда | только секретные чаты | в личных чатах по умолчанию |
+| Свой сервер | да, код ноды открыт | код открыт, но клиенты на чужой сервер не настраиваются | нет | да, федерация |
+| Несколько устройств на одном аккаунте | до 8 | да | да | да |
+| Защита прошлых сообщений | по желанию в личных чатах | всегда | только секретные чаты | да |
+| Сеть доверия: сверка ключей, рекомендации контактов, права для каждого контакта | да | сверка номеров безопасности | нет | перекрёстная подпись устройств |
+| Групповые звонки | до 5 голосом, до 3 с видео | до 50 | да | да |
+| Открытый код клиента | готовится | да | да | да |
+| macOS и веб-версия | нет | да | да | да |
 
 ## Открытость
 
