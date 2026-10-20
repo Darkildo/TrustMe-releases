@@ -47,22 +47,22 @@ TrustMe - мессенджер для тех, кто хочет общаться
 
 </details>
 
-Ссылки всегда ведут на последнюю версию. Прошлые версии и список изменений - в [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
+Ссылки всегда ведут на последнюю версию. Снимки экрана сделаны с английским интерфейсом; русский язык включается в настройках. Прошлые версии и список изменений - в [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
 
 <table>
   <tr>
     <td align="center" width="20%"><img src="assets/screenshots/01-key.png" width="170" alt="Создание ключа"><br><sub>Ключ аккаунта создаётся на устройстве</sub></td>
     <td align="center" width="20%"><img src="assets/screenshots/02-chat.png" width="170" alt="Чат"><br><sub>Переписка со сквозным шифрованием</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/03-trust.png" width="170" alt="Контакты по доверию"><br><sub>Видно, кому можно доверять</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/03-trust.png" width="170" alt="Профиль контакта"><br><sub>Доверие и права для каждого контакта</sub></td>
     <td align="center" width="20%"><img src="assets/screenshots/09-devices.png" width="170" alt="Мои устройства"><br><sub>Один аккаунт на 8 устройствах</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/10-nodes.png" width="170" alt="Мои ноды"><br><sub>Пул нод и строгий режим</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/10-chats.png" width="170" alt="Список чатов"><br><sub>Чаты, группы и Избранное</sub></td>
   </tr>
   <tr>
     <td align="center" width="20%"><img src="assets/screenshots/04-location.png" width="170" alt="Трансляция местоположения"><br><sub>Местоположение: кому и на сколько, решаете вы</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/05-group.png" width="170" alt="Группа"><br><sub>Группы с ролями и исчезающими сообщениями</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/06-call.png" width="170" alt="Итог звонка"><br><sub>Звонки защищены DTLS-SRTP</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/05-group.png" width="170" alt="Группа"><br><sub>Группы: кто доставил, кто прочитал</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/06-call.png" width="170" alt="Звонок"><br><sub>Звонки со сквозным шифрованием</sub></td>
     <td align="center" width="20%"><img src="assets/screenshots/07-security.png" width="170" alt="Безопасность"><br><sub>PIN, биометрия и автоблокировка</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/08-media-encryption.png" width="170" alt="Шифрование медиа"><br><sub>Фото и видео зашифрованы и на телефоне</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/08-media-settings.png" width="170" alt="Настройки медиа"><br><sub>Автозагрузка и срок хранения файлов</sub></td>
   </tr>
 </table>
 

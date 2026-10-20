@@ -49,22 +49,20 @@ And if you would rather not depend even on our server, run your own: its source 
 
 The links always point to the latest version. Older versions and change notes are in [Releases](https://github.com/Darkildo/TrustMe-releases/releases).
 
-The screenshots show the Russian UI; English is available in settings.
-
 <table>
   <tr>
     <td align="center" width="20%"><img src="assets/screenshots/01-key.png" width="170" alt="Key generation"><br><sub>Your account key is created on the device</sub></td>
     <td align="center" width="20%"><img src="assets/screenshots/02-chat.png" width="170" alt="Chat"><br><sub>End-to-end encrypted chats</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/03-trust.png" width="170" alt="Contacts by trust"><br><sub>See whom you can trust</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/03-trust.png" width="170" alt="Contact profile"><br><sub>Trust and permissions per contact</sub></td>
     <td align="center" width="20%"><img src="assets/screenshots/09-devices.png" width="170" alt="My devices"><br><sub>One account on up to 8 devices</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/10-nodes.png" width="170" alt="My nodes"><br><sub>Node pool and strict mode</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/10-chats.png" width="170" alt="Chat list"><br><sub>Chats, groups and Saved Messages</sub></td>
   </tr>
   <tr>
     <td align="center" width="20%"><img src="assets/screenshots/04-location.png" width="170" alt="Live location"><br><sub>Location: you decide who and for how long</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/05-group.png" width="170" alt="Group"><br><sub>Groups with roles and disappearing messages</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/06-call.png" width="170" alt="Call summary"><br><sub>Calls protected by DTLS-SRTP</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/05-group.png" width="170" alt="Group"><br><sub>Groups: who received it, who read it</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/06-call.png" width="170" alt="Call"><br><sub>End-to-end encrypted calls</sub></td>
     <td align="center" width="20%"><img src="assets/screenshots/07-security.png" width="170" alt="Security"><br><sub>PIN, biometrics and auto-lock</sub></td>
-    <td align="center" width="20%"><img src="assets/screenshots/08-media-encryption.png" width="170" alt="Media encryption"><br><sub>Photos and videos stay encrypted on the phone</sub></td>
+    <td align="center" width="20%"><img src="assets/screenshots/08-media-settings.png" width="170" alt="Media settings"><br><sub>Auto-download and file retention, your call</sub></td>
   </tr>
 </table>
 
