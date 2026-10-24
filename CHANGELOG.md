@@ -3,6 +3,54 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.2.0 (2026-10-24)
+
+Видеокружки и голосовые теперь играют подряд, продолжаются в мини-плеере и не звучат одновременно.
+
+**Что изменилось в 13.2.0**
+- Кружки и голосовые идут цепочкой: когда сообщение доиграло, сразу начинается следующее, если это тоже кружок или голосовое. Цепочка продолжается, даже если вы вышли из чата.
+- Мини-плеер: если прокрутить чат или выйти из него, кружок доигрывает в плавающем круге, а голосовое в плашке сверху. Круг можно перетащить в любой угол, поставить на паузу, закрыть или вернуться к сообщению в чате.
+- Одновременно звучит что-то одно: голосовое останавливает кружок и наоборот, видео в галерее останавливает то, что играло в чате, а начало записи останавливает воспроизведение.
+- Кружок встаёт на паузу при звонке и при сворачивании приложения. Прерванный кружок продолжается с того же места.
+- Скорость воспроизведения общая для кружков и голосовых. Обычные видео всегда играют с обычной скоростью.
+- На компьютере и планшете кружок при просмотре больше не растягивается на всю ширину чата.
+- Если кружок не удалось воспроизвести, приложение сообщает об этом, а не молчит.
+
+---
+
+Video notes and voice messages now play one after another, keep playing in a mini player and never sound at the same time.
+
+**What's changed in 13.2.0**
+- Video notes and voice messages play as a chain: when one finishes, the next one starts right away if it is also a video note or a voice message. The chain keeps going even after you leave the chat.
+- Mini player: if you scroll the chat or leave it, a video note keeps playing in a floating circle and a voice message in a bar at the top. You can drag the circle to any corner, pause it, close it or jump back to the message in the chat.
+- Only one thing plays at a time: a voice message stops a video note and vice versa, a video in the gallery stops whatever was playing in the chat, and starting a recording stops playback.
+- A video note pauses during a call and when the app is minimized. An interrupted video note resumes where it stopped.
+- Playback speed is shared between video notes and voice messages. Regular videos always play at normal speed.
+- On desktop and tablets a playing video note no longer stretches to the full width of the chat.
+- If a video note cannot be played, the app now tells you instead of staying silent.
+
+
+## 13.1.0 (2026-10-21)
+
+Карту и геолокацию теперь можно выключить целиком, если они вам не нужны.
+
+**Что изменилось в 13.1.0**
+- Новый переключатель «Карта и геолокация» в настройках приватности. Когда он выключен, нет вкладки карты, приложение не просит доступ к геолокации и не записывает вашу позицию, а пункты «Локация» и «Точка» пропадают из вложений.
+- При выключении активные трансляции геопозиции останавливаются. По желанию можно сразу отозвать у контактов доступ к истории локаций и стереть геоданные с устройства.
+- Точки и трансляции, которые присылают собеседники, по-прежнему открываются на карте, отдельным экраном.
+- Предупреждение о доступе к геолокации на карте больше не мигает и предлагает сразу выключить карту.
+
+---
+
+The map and location features can now be turned off entirely if you don't need them.
+
+**What's changed in 13.1.0**
+- A new "Map and location" switch in privacy settings. When it is off, there is no map tab, the app does not ask for location access or record your position, and "Location" and "Pin" disappear from attachments.
+- Turning it off stops active live location shares. You can also revoke location history access from contacts and erase location data from the device right away.
+- Locations and live shares sent by your contacts still open on a map, in a separate screen.
+- The location access warning on the map no longer flickers and offers to turn the map off.
+
+
 ## 13.0.3 (2026-10-20)
 
 Исправлена работа в фоне: уведомления и звонки снова доходят, когда приложение закрыто.

@@ -68,7 +68,9 @@ The links always point to the latest version. Older versions and change notes ar
 
 ## Recent changes
 
-- **13.0**, October 2026: files are stored on your node and downloaded under your rules, auto-download and retention settings, revoking a file for everyone, call relays with temporary credentials from the node.
+- **13.2**, October 2026: voice and round video messages play one after another, keep playing in a mini player after you leave the chat and never sound at the same time; playback pauses during calls and when the app is minimized.
+- **13.1**: the map and location features can be turned off entirely.
+- **13.0**: files are stored on your node and downloaded under your rules, auto-download and retention settings, revoking a file for everyone, call relays with temporary credentials from the node.
 - **12.1**: redesigned "My devices", "My nodes" and step-by-step account transfer screens.
 - **12.0**: up to 8 devices in one account, node pool and strict mode.
 - **11.8**: account transfer confirmed with a code, group admins can delete other members' messages.
@@ -116,6 +118,7 @@ polls, groups, video calls and screen sharing from your computer.
 
 **Chat your way.** Reply to specific messages, react, forward to other chats, edit and delete for yourself or for everyone.
 Record voice messages up to 10 minutes and round video messages, send a batch of photos and videos as one album, touch up a photo in the built-in editor.
+Voice and round video messages play one after another and keep playing in a mini player when you leave the chat.
 Send a secret photo for a single view, or set a conversation to delete itself after an hour, a day or a week.
 
 **Express yourself.** Build your own sticker packs, import them from an archive and share them right in the chat.
