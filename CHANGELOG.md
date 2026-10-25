@@ -3,6 +3,39 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.3.0 (2026-10-25)
+
+Видео показываются в своих пропорциях, карта точнее считает дни, а звонки и медиа работают надёжнее.
+
+**Что изменилось в 13.3.0**
+- Видео в чате показываются в своих пропорциях: вертикальное — вертикально, широкое — широко. Видеокружки остаются кругами.
+- Своё фото или видео сохраняется в «Избранное» быстрее и без лишней нагрузки на память. Скачанное медиа собеседника теперь сохраняется в «Избранное» вместе с файлом.
+- Если медиа не открывается, пока приложение заблокировано, в сообщении видно, что нужно открыть приложение. После разблокировки медиа загружается само.
+- Видео больше не перестаёт воспроизводиться при быстрой прокрутке чата.
+- В групповом чате файл, который пропал с вашего устройства, приложение просит у участников, которые его получили.
+- Звонок больше не обрывается из-за короткого сбоя связи в момент соединения.
+- На компьютере выбранный микрофон больше не сбрасывается на системный во время звонка.
+- Если в чате с защитой прошлых сообщений пришло сообщение без этой защиты, оно не принимается, и в чате появляется строка об этом.
+- Карта: история перемещений правильно делит дни, в том числе в день перевода часов. При просмотре недели или месяца ползунок не уходит за выбранный день.
+- Карта: в карточке контакта видно расстояние до него. Кнопка «Поделиться» в карточке сразу отмечает этого контакта, а на экране «Поделиться» видно превью карты с вашей позицией.
+
+---
+
+Videos keep their own proportions, the map counts days more accurately, and calls and media are more reliable.
+
+**What's changed in 13.3.0**
+- Videos in a chat keep their own proportions: a portrait video is shown upright and a wide one is shown wide. Video notes stay round.
+- Saving your own photo or video to Saved Messages is faster and uses less memory. Downloaded media from a contact is now saved to Saved Messages together with its file.
+- If media cannot be opened while the app is locked, the message now says to open the app. After unlocking, the media loads on its own.
+- Videos no longer stop playing when you scroll a chat quickly.
+- In a group chat, a file that is missing from your device is now requested from the members who received it.
+- A short connection glitch while a call is connecting no longer ends the call.
+- On desktop, the selected microphone is no longer reset to the system default during a call.
+- In a chat with forward secrecy, a message that arrives without it is rejected, and the chat shows a line about it.
+- Map: location history splits days correctly, including the day the clocks change. When viewing a week or a month, the slider stays within the selected day.
+- Map: a contact's card shows the distance to them. The Share button in the card selects that contact right away, and the Share screen shows a map preview with your position.
+
+
 ## 13.2.0 (2026-10-24)
 
 Видеокружки и голосовые теперь играют подряд, продолжаются в мини-плеере и не звучат одновременно.
