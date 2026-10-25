@@ -3,6 +3,33 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.3.1 (2026-10-25)
+
+Экран блокировки стал проще, а на компьютере звук больше не затихает во время звонка.
+
+**Что изменилось в 13.3.1**
+- Экран блокировки без лишнего: только точки кода, клавиатура и кнопка Face ID или отпечатка. Вход по коду, по паролю и после автоблокировки выглядят одинаково.
+- Face ID или отпечаток предлагается сразу при открытии приложения.
+- Сбросить аккаунт теперь можно по ссылке «Забыли PIN-код?» внизу экрана, а не долгим нажатием.
+- Ошибка ввода кода показывается на одном месте, клавиатура больше не сдвигается.
+- На Windows звук других приложений больше не затихает, когда вы в звонке или показываете экран со звуком.
+- Когда вы удаляете своё сообщение с фото или видео, файл тоже удаляется с устройства.
+- Приложение раз в неделю убирает файлы, которые уже нельзя открыть, и недокачанные остатки.
+
+---
+
+The lock screen is simpler, and on desktop other sounds no longer fade during a call.
+
+**What's changed in 13.3.1**
+- A cleaner lock screen: just the code dots, the keypad and a Face ID or fingerprint button. Unlocking with a code, a password or after auto-lock now looks the same.
+- Face ID or fingerprint is offered as soon as the app opens.
+- To reset your account, use the "Forgot your PIN?" link at the bottom of the screen instead of a long press.
+- A wrong-code message always appears in the same place, so the keypad no longer jumps.
+- On Windows, other apps no longer get quieter while you are in a call or sharing your screen with sound.
+- When you delete your own message with a photo or video, the file is removed from your device too.
+- Once a week the app clears out files that can no longer be opened and leftovers of unfinished downloads.
+
+
 ## 13.3.0 (2026-10-25)
 
 Видео показываются в своих пропорциях, карта точнее считает дни, а звонки и медиа работают надёжнее.

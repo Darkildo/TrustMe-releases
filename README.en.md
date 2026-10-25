@@ -68,7 +68,8 @@ The links always point to the latest version. Older versions and change notes ar
 
 ## Recent changes
 
-- **13.3**, October 2026: videos keep their own proportions in chats, media is saved to Saved Messages without extra memory load, the selected microphone on desktop is no longer reset, the map splits days more accurately and shows the distance to a contact.
+- **13.3.1**, October 2026: a cleaner lock screen with Face ID or fingerprint offered right away; on Windows other apps no longer get quieter during a call.
+- **13.3**: videos keep their own proportions in chats, media is saved to Saved Messages without extra memory load, the selected microphone on desktop is no longer reset, the map splits days more accurately and shows the distance to a contact.
 - **13.2**: voice and round video messages play one after another, keep playing in a mini player after you leave the chat and never sound at the same time; playback pauses during calls and when the app is minimized.
 - **13.1**: the map and location features can be turned off entirely.
 - **13.0**: files are stored on your node and downloaded under your rules, auto-download and retention settings, revoking a file for everyone, call relays with temporary credentials from the node.
