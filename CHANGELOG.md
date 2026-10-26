@@ -3,6 +3,35 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.4.2 (2026-10-26)
+
+Стикеры стали безопаснее и легче, «Поделиться» на Android работает, а связь с нодой восстанавливается сама после любого обрыва.
+
+**Что изменилось в 13.4.2**
+- «Поделиться → TrustMe» на Android теперь открывает выбор чата и после ввода кода, и когда приложение было свёрнуто.
+- После обрыва связи приложение переподключается к ноде само, даже если до этого работало долго. Раньше после 15 минут работы переподключение могло остановиться до возврата в приложение.
+- Стикеры и наборы хранятся на устройстве в зашифрованном виде и удаляются вместе с данными при сбросе или тревожном коде.
+- Испорченный стикер или архив набора больше не может уронить приложение: файлы проверяются до показа, а архив открывается только по нажатию.
+- Наборы подписываются: обновить набор может только его автор. Чужой архив с тем же набором устанавливается отдельной копией. В карточке набора видно, от кого он.
+- Набор, который вы отправляете по запросу, всегда уходит отдельным файлом.
+- Стикеры в чатах и на панели работают плавнее: анимируются только те, что видны на экране.
+- Порядок стикеров в своём наборе можно менять перетаскиванием. Программы чтения с экрана называют стикер по его эмодзи.
+
+---
+
+Stickers are safer and lighter, Share on Android works, and the connection to your node now recovers on its own after any drop.
+
+**What's changed in 13.4.2**
+- On Android, Share → TrustMe now opens the chat picker both after you enter your code and when the app was in the background.
+- After a connection drop the app reconnects to the node on its own, even after a long session. Previously, after 15 minutes of use, reconnecting could stop until you returned to the app.
+- Stickers and sticker packs are stored encrypted on the device and are erased together with your data on reset or with the duress code.
+- A broken sticker or pack archive can no longer crash the app: files are checked before they are shown, and an archive is opened only when you tap it.
+- Packs are signed: only the author can update a pack. Someone else's archive of the same pack installs as a separate copy. The pack card shows who it is from.
+- A pack you send on request always goes as a separate file.
+- Stickers in chats and in the panel run more smoothly: only the ones visible on screen are animated.
+- You can reorder stickers in your own pack by dragging. Screen readers name a sticker by its emoji.
+
+
 ## 13.4.0 (2026-10-26)
 
 Скрытые чаты, свои папки, отправка в TrustMe из других приложений и понятное ожидание, пока новый контакт подтвердит приглашение.
