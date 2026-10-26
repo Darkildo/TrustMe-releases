@@ -3,6 +3,27 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.5.0 (2026-10-26)
+
+Приложение переведено на свежий Flutter и обновлённые библиотеки, а новые проверки помогли найти и исправить три скрытые ошибки в обработке сбоев.
+
+**Что изменилось в 13.5.0**
+- Приложение собрано на Flutter 3.47.8 и Dart 3.13.7 (было 3.44.2), последняя стабильная версия.
+- Обновлены библиотеки уведомлений, видео, камеры, редактора изображений, Firebase и другие, всего около 150 пакетов.
+- Исправлены три места, где ошибка при публикации аватара, пересылке сообщений или определении размеров медиа могла пройти мимо обработчика и оборвать операцию. Теперь такие ошибки перехватываются, а операция завершается корректно.
+- Края скруглённых элементов интерфейса рисуются немного аккуратнее: так рендерит новый движок.
+
+---
+
+TrustMe now runs on a current Flutter with updated libraries, and the new checks helped find and fix three hidden bugs in error handling.
+
+**What's changed in 13.5.0**
+- The app is built with Flutter 3.47.8 and Dart 3.13.7 (previously 3.44.2), the latest stable release.
+- Updated notification, video, camera, image editor, Firebase and other libraries, about 150 packages in total.
+- Fixed three places where an error while publishing an avatar, forwarding messages or reading media dimensions could bypass its handler and break the operation. These errors are now caught and the operation finishes cleanly.
+- Rounded edges in the interface are drawn slightly more cleanly, as rendered by the new engine.
+
+
 ## 13.4.2 (2026-10-26)
 
 Стикеры стали безопаснее и легче, «Поделиться» на Android работает, а связь с нодой восстанавливается сама после любого обрыва.
