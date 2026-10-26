@@ -68,7 +68,8 @@ The links always point to the latest version. Older versions and change notes ar
 
 ## Recent changes
 
-- **13.3.1**, October 2026: a cleaner lock screen with Face ID or fingerprint offered right away; on Windows other apps no longer get quieter during a call.
+- **13.4**, October 2026: hidden chats with their own code, your own chat folders, sharing into TrustMe from the Android Share menu, a waiting state until a new contact confirms, a duress code that erases data.
+- **13.3.1**: a cleaner lock screen with Face ID or fingerprint offered right away; on Windows other apps no longer get quieter during a call.
 - **13.3**: videos keep their own proportions in chats, media is saved to Saved Messages without extra memory load, the selected microphone on desktop is no longer reset, the map splits days more accurately and shows the distance to a contact.
 - **13.2**: voice and round video messages play one after another, keep playing in a mini player after you leave the chat and never sound at the same time; playback pauses during calls and when the app is minimized.
 - **13.1**: the map and location features can be turned off entirely.

@@ -3,6 +3,33 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.4.0 (2026-10-26)
+
+Скрытые чаты, свои папки, отправка в TrustMe из других приложений и понятное ожидание, пока новый контакт подтвердит приглашение.
+
+**Что изменилось в 13.4.0**
+- Скрытые чаты. Любой чат можно убрать в скрытый раздел: он пропадает из списка, поиска и пересылки, а уведомления от него приходят без имени и текста. Раздел открывается своим кодом в настройках безопасности или в поиске. Неверный код открывает пустой раздел, поэтому со стороны не видно, есть ли там что-то.
+- Свои папки чатов: до 10 вкладок рядом со «Всеми» и «Непрочитанными». Чат можно пометить непрочитанным, собеседник об этом не узнает.
+- На Android TrustMe появился в меню «Поделиться» других приложений: фото, видео, файлы и текст отправляются в выбранный чат.
+- После сканирования QR чат показывает, что контакт ещё не подтвердил приглашение. Писать уже можно, сообщения дойдут после подтверждения, а звонки станут доступны, когда контакт подтвердит. Неподтверждённое приглашение можно отменить.
+- Новые заявки в контакты видны прямо над списком чатов.
+- Тревожный код: если ввести его вместо обычного, все данные на устройстве стираются, а снаружи это выглядит как обычный вход.
+- Связь с нодами стала надёжнее: соединение с контактом на другой ноде больше не обрывается, если подключение идёт медленно.
+
+---
+
+Hidden chats, your own folders, sharing into TrustMe from other apps, and a clear waiting state until a new contact confirms the invitation.
+
+**What's changed in 13.4.0**
+- Hidden chats. Any chat can be moved to a hidden section: it disappears from the chat list, search and forwarding, and its notifications arrive without a name or text. The section opens with its own code in security settings or in search. A wrong code opens an empty section, so nobody can tell whether anything is there.
+- Your own chat folders: up to 10 tabs next to "All" and "Unread". You can mark a chat as unread, and the other person won't know.
+- On Android, TrustMe now appears in the Share menu of other apps: photos, videos, files and text go to the chat you pick.
+- After you scan a QR code, the chat shows that the contact hasn't confirmed the invitation yet. You can already write; messages arrive once they confirm, and calls become available after confirmation. An unconfirmed invitation can be cancelled.
+- New contact requests now appear right above the chat list.
+- Duress code: if you enter it instead of your usual code, all data on the device is erased, and it looks like a normal unlock.
+- Connections between nodes are more reliable: a connection to a contact on another node no longer drops when it is slow to set up.
+
+
 ## 13.3.1 (2026-10-25)
 
 Экран блокировки стал проще, а на компьютере звук больше не затихает во время звонка.
