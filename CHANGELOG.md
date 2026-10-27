@@ -3,6 +3,33 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.5.1 (2026-10-27)
+
+Анимированные стикеры больше не замирают и не пропадают, а новая плавная анимация переходов между экранами теперь в цветах вашей темы.
+
+**Что изменилось в 13.5.1**
+- В 13.5.0 при переходе между экранами в тёмной теме экран на мгновение становился белым. Теперь новая анимация перехода идёт на фоне текущей темы, без вспышки.
+- Анимированные стикеры больше не застывают на первом кадре после просмотра набора или превью и когда в чате их много. Как только освобождается место, они снова оживают.
+- Видео-стикеры не мигают пустым квадратом, когда останавливаются или снова запускаются. Если стикер не удалось открыть, вместо пустого места виден значок.
+- Видео-стикеры в панели появляются быстрее: сначала готовятся те, что на экране, и только что отправленные в чате.
+- Входящие стикеры до 512 КБ загружаются сами при любой сети, в том числе в роуминге и в режиме экономии трафика.
+- Анимированные стикеры в формате WebP (например, из WhatsApp) распознаются и анимируются наравне с остальными.
+- Анимированные стикеры занимают меньше памяти. При сбросе и тревожном коде из памяти стираются и уже показанные стикеры.
+
+---
+
+Animated stickers no longer freeze or disappear, and the new smooth screen transition now uses your theme's colors.
+
+**What's changed in 13.5.1**
+- In 13.5.0, the screen briefly turned white when moving between screens in the dark theme. The new transition now runs over the background of your current theme, without the flash.
+- Animated stickers no longer get stuck on the first frame after you view a pack or a preview, or when a chat has many of them. They come back to life as soon as there is room.
+- Video stickers no longer flash an empty square when they pause or start again. If a sticker can't be opened, you now see an icon instead of an empty space.
+- Video stickers in the panel appear faster: the ones on screen and the ones you just sent in a chat are prepared first.
+- Incoming stickers up to 512 KB download on their own on any network, including roaming and data saver mode.
+- Animated WebP stickers (for example, from WhatsApp) are recognized and animated like the rest.
+- Animated stickers use less memory. A reset or the duress code now also erases stickers already shown from memory.
+
+
 ## 13.5.0 (2026-10-26)
 
 Приложение переведено на свежий Flutter и обновлённые библиотеки, а новые проверки помогли найти и исправить три скрытые ошибки в обработке сбоев.
