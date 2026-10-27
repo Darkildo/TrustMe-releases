@@ -3,6 +3,28 @@
 Те же заметки, что и в [Releases](https://github.com/Darkildo/TrustMe-releases/releases), собранные в один файл. Новые версии сверху. Каждая запись: сначала по-русски, затем по-английски.
 
 
+## 13.5.2 (2026-10-27)
+
+Видео-стикеры в панели появляются быстрее и больше не теряют прозрачность.
+
+**Что изменилось в 13.5.2**
+- Видео-стикеры в панели и в редакторе набора появляются заметно быстрее: для миниатюры приложение готовит только первый кадр, а не весь стикер целиком.
+- Видео-стикер больше не может стать полностью прозрачным посреди анимации, если в файле не хватает данных о прозрачности для отдельного кадра.
+- Обновлены библиотека шифрования базы сообщений и другие компоненты ядра. Ваши данные остаются на месте: база открывается тем же ключом, ничего переносить не нужно.
+- Обновлены криптографические библиотеки приложения. Ключи, контакты и переписка остаются прежними, совместимость с собеседниками на старых версиях сохраняется.
+
+---
+
+Video stickers in the panel appear faster and no longer lose their transparency.
+
+**What's changed in 13.5.2**
+- Video stickers in the panel and in the pack editor appear noticeably faster: for a thumbnail the app now prepares only the first frame instead of the whole sticker.
+- A video sticker can no longer turn fully transparent in the middle of its animation when the file lacks transparency data for a single frame.
+- The message database encryption library and other core components are updated. Your data stays where it is: the database opens with the same key, nothing needs to be migrated.
+- The app's cryptographic libraries are updated. Your keys, contacts and conversations stay the same, and you can keep chatting with people on older versions.
+
+
+
 ## 13.5.1 (2026-10-27)
 
 Анимированные стикеры больше не замирают и не пропадают, а новая плавная анимация переходов между экранами теперь в цветах вашей темы.

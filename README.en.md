@@ -68,7 +68,8 @@ The links always point to the latest version. Older versions and change notes ar
 
 ## Recent changes
 
-- **13.5.1**, October 2026: animated stickers no longer freeze or disappear, incoming stickers download on their own on any network; screen transitions use your theme colors, without a white flash.
+- **13.5.2**, October 2026: video stickers in the panel appear faster and no longer lose their transparency; the database encryption and cryptographic libraries are updated, your data and conversations stay the same.
+- **13.5.1**: animated stickers no longer freeze or disappear, incoming stickers download on their own on any network; screen transitions use your theme colors, without a white flash.
 - **13.5**: built with Flutter 3.47.8 and Dart 3.13.7, about 150 libraries updated, three error-handling bugs fixed.
 - **13.4.2**: stickers are stored encrypted and can no longer crash the app, packs are signed by their author; Share on Android opens the chat picker; the connection to your node recovers on its own after any drop.
 - **13.4**: hidden chats with their own code, your own chat folders, sharing into TrustMe from the Android Share menu, a waiting state until a new contact confirms, a duress code that erases data.
